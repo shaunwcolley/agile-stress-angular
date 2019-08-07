@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -124,6 +124,12 @@
           }
         }
       }
-    }},
-  "defaultProject": "agile-stress-angular"
+    }
+  },
+  "defaultProject": "agile-stress-angular",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
